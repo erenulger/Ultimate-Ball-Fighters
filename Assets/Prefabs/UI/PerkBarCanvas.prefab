@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1569433259439040976}
   - component: {fileID: 9020827585304348856}
   - component: {fileID: 5911553572446568351}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PerkBarCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2222416032121088525}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 2340676721238269956}
   - component: {fileID: 1728373839408792824}
   - component: {fileID: 9189382368422109095}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PerkText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4235453732202388690}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 8979792875952402072}
   - component: {fileID: 8653931933007445614}
   - component: {fileID: 1213167826659698713}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: PerkIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +281,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7734796285691781227}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

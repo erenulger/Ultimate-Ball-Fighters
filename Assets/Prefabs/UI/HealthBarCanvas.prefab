@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7043181633453114206}
   - component: {fileID: 7064785493936778065}
   - component: {fileID: 5044221649632725744}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: HealthBarCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &7064785493936778065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,7 +150,7 @@ GameObject:
   - component: {fileID: 4610430822187229538}
   - component: {fileID: 4107478786644959227}
   - component: {fileID: 5991989977889986644}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: EmptyBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 6263947126066313160}
   - component: {fileID: 512162260818816217}
   - component: {fileID: 8154408433960632862}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: FullBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -8,6 +8,7 @@ TagManager:
   - Marble
   - MeleeWeapon
   - DefensiveWeapon
+  - UIMarble
   layers:
   - Default
   - TransparentFX
@@ -44,4 +45,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Character
+    uniqueID: 2692112669
+    locked: 0
+  - name: Character UI
+    uniqueID: 4001538351
+    locked: 0
+  - name: UI
+    uniqueID: 3052710731
     locked: 0

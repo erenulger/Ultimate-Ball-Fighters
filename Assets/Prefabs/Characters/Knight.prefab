@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 2586988417527935217}
   - component: {fileID: 5006541099201339237}
   - component: {fileID: 1052589462352707408}
-  m_Layer: 0
+  - component: {fileID: 4049640842463683814}
+  m_Layer: 7
   m_Name: Knight
   m_TagString: Marble
   m_Icon: {fileID: 0}
@@ -112,8 +113,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1602854627
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b2eaf9fb6959a5848844ce1c46f7a4f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -169,7 +170,7 @@ MonoBehaviour:
   maxHealth: 10
   health: 5
   spinDegPerSec: 360
-  initialVelocity: 15
+  initialVelocity: 0
   initialVelocityVector: {x: 1, y: 0}
   hitStopDuration: 0.25
   damageFlashColor: {r: 1, g: 0, b: 0, a: 1}
@@ -205,6 +206,24 @@ MonoBehaviour:
   healthBarPrefab: {fileID: 5044221649632725744, guid: 17cdcaef9e01ee64bb6264c65d7b8d8c, type: 3}
   createHealthBarOnStart: 1
   useWorldSpaceHealthBar: 1
+--- !u!114 &4049640842463683814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575516173373702878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 977d83d28685ed34e982df282fd96f99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liftOffset: 0.05
+  followLerp: 1
+  tileLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  allowReplace: 0
 --- !u!1 &1641332746707905509
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,9 +336,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
+    - target: {fileID: 5623609446127629048, guid: b7a5cf4e2a21a324f834422f9d301547, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623609446127629048, guid: b7a5cf4e2a21a324f834422f9d301547, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1602854627
+      objectReference: {fileID: 0}
     - target: {fileID: 6895952936311897187, guid: b7a5cf4e2a21a324f834422f9d301547, type: 3}
       propertyPath: m_Name
       value: Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 6895952936311897187, guid: b7a5cf4e2a21a324f834422f9d301547, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -342,6 +373,18 @@ PrefabInstance:
     - target: {fileID: 227785157225975145, guid: 8c5aa7251f65bcd43a35e79e13eb35f6, type: 3}
       propertyPath: m_Name
       value: Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 227785157225975145, guid: 8c5aa7251f65bcd43a35e79e13eb35f6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 476255902182224199, guid: 8c5aa7251f65bcd43a35e79e13eb35f6, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 476255902182224199, guid: 8c5aa7251f65bcd43a35e79e13eb35f6, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1602854627
       objectReference: {fileID: 0}
     - target: {fileID: 3901361676690606803, guid: 8c5aa7251f65bcd43a35e79e13eb35f6, type: 3}
       propertyPath: m_LocalPosition.x
